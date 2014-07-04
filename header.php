@@ -52,7 +52,7 @@
           <ul class="nav navbar-nav side-nav">
             <li class=""><a href="index.php"><i class="fa fa-dashboard"></i> No Sidebar</a></li>
             <li><a href="index-with-sidebar-template.php"><i class="fa fa-bar-chart-o"></i> With Sidebar</a></li>
-            <li><a href="example.php"><i class="fa fa-bar-chart-o"></i> Example form</a></li>
+            <!-- <li><a href="example.php"><i class="fa fa-bar-chart-o"></i> Example form</a></li> -->
             
           </ul>
 
