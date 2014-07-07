@@ -6,3 +6,10 @@ There's 2 templates:
 1) Simple template with footer, header and side menu.
 
 2) Same template with a sidebar.
+
+
+To get started quickly go here:
+
+http://samplewebsite.com
+
+From there you can just copy and paste individual UI bootstrap elements.
