@@ -26,15 +26,29 @@
 
       <h2>Sidebar Column</h2>
 
-      <ul>
-        <li>Sidebar Item 1</li>
-        <li>Sidebar Item 2</li>
-        <li>Sidebar Item 3</li>
-        <li>Sidebar Item 4</li>
-        <li>Sidebar Item 5</li>
-
-      </ul>
+      
         
+        <div class="panel panel-primary">
+              <div class="panel-heading center-align ">
+                <h3 class="panel-title center-block"><i class="fa fa-user"></i> Primary Panel</h3>
+              </div>
+              <div class="panel-body">
+              <div class="center-align">
+                <button type="button" class="btn btn-success">Button A</button>
+                <button type="button" class="btn btn-success">Button B</button>
+              </div>
+
+                <hr>
+
+                <p><strong>Some Content here:</strong> June 4, 2014</p>
+
+                <p><strong>Replace all this</strong> with your own content</p>
+           
+                
+              </div>
+            </div>
+
+           
          
 
         </div> <!-- Sidebar -->

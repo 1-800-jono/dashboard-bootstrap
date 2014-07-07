@@ -31,21 +31,21 @@ $('form').click(function() {
 //Navbar Active class
 
 
-var url = window.location;
-// Will only work if string in href matches with location
-$('.side-nav li a[href="'+ url +'"]').parent().addClass('active');
 
-// Will also work for relative and absolute hrefs
-$('.side-nav li a').filter(function() {
-    return this.href == url;
-}).parent().addClass('active');
+  function stripTrailingSlash(str) {
+    if(str.substr(-1) == '/') {
+      return str.substr(0, str.length - 1);
+    }
+    return str;
+  }
 
-//Display Submit Message Alert
+  var url = window.location.pathname;  
+  var activePage = stripTrailingSlash(url);
 
-$('.show-message').click(function() {
+  $('li a').each(function(){  
+    var currentPage = stripTrailingSlash($(this).attr('href'));
 
-$('.submit-message').show();
-
-
-
-});
+    if (activePage == currentPage) {
+      $(this).parent().addClass('active'); 
+    } 
+  });
