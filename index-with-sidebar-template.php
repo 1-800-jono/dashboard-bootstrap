@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-
+<!-- MAin Column -->
 <div class="col-lg-8 main-content">
 
     <h1>template with sidebar <br><small>sub heading</small></h1>
@@ -24,6 +24,16 @@
 
         <div class="col-md-4 sidebar">
 
+      <h2>Sidebar Column</h2>
+
+      <ul>
+        <li>Sidebar Item 1</li>
+        <li>Sidebar Item 2</li>
+        <li>Sidebar Item 3</li>
+        <li>Sidebar Item 4</li>
+        <li>Sidebar Item 5</li>
+
+      </ul>
         
          
 
